@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz aquí tus reservaciones</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">🇲🇽 La Orden del Taco 🇲🇽</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <!-- <li>
+                    <a href="./index.html#menu">Menu</a>
+                </li> -->
+                <li>
+                    <a href="./hours.html">Horario</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contactanos</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./recetas.html">Recetas</a>
+                </li>
+                <!-- <li>
+                    <a href="./reservar.html">Reservaciones</a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h2>Haz tus reservaciones en linea</h2>
+            <figure>
+                <img src="./img/tacos_and_drink_1000x667.png" alt="Tacos and a drink" title="we ❤️ tacos" width="1000"
+                    height="667">
+                <figcaption class="offscreen">
+                    Prueba nuestros deliciosos tacos de trompo
+                </figcaption>
+            </figure>
+        </section>
+        <section class="main__section">
+            <form action="https://httpbinorg/get" method="get">
+                <fieldset>
+                    <p>
+                        <label for="name">Nombre Completo:</label>
+                        <input type="text" name="name" id="name" placeholder="Tu Nombre" required>
+                    </p>
+                    <p>
+                        <label for="birthdaytime">Fecha y hora de reservacion:</label>
+                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                    </p>
+                    <p>
+                        <label for="emailForm">Email:</label>
+                        <input type="email" name="emailForm" id="emailForm" placeholder="Tu Email" required>
+                    </p>
+                    <p>
+                        <label for="message">Mensaje:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <button class="btn-1" type="submit">enviar</button>
+                <button class="btn-2" type="reset">borrar</button>
+            </form>
+        </section>
+        <p><a href="#">Arriba</a></p>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap"> Copyright &copy; 2022</span>
+            <span class="nowrap"> La Orden del Taco</span>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web oficial de la Orden del Taco">
+    <title>La Orden del Taco</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- command d para seleccionar multiples y hacerlo más facil -->
+<!-- shift + option para abajo copia -->
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">🇲🇽 La Orden del Taco 🇲🇽</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <!-- <li>
+                    <a href="#menu">Menu</a>
+                </li> -->
+                <li>
+                    <a href="./hours.html">Horario</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contactanos</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./recetas.html">Recetas</a>
+                </li>
+                <!-- <li>
+                    <a href="./reservar.html">Reservaciones</a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+    <!-- hero section es el que llama la atencion -->
+    <section class="hero">
+        <h2 class="hero__h2">Bienvenidos!</h2>
+        <figure>
+            <img src="./img/tacos_and_drink_1000x667.png" alt="Tacos and a drink" title="we ❤️ tacos" width="1000"
+                height="667">
+            <figcaption class="offscreen">
+                Prueba nuestros deliciosos tacos de trompo
+            </figcaption>
+        </figure>
+    </section>
+    <hr>
+    <main class="main">
+        <article id="about" class="main__article">
+            <h2>Sobre la Orden del Taco</h2>
+            <p>
+                <abbr title="La Orden del Taco">ODT</abbr> fue fundada el año <time datetime="2019">2019</time>. Nuestro
+                restaurante comenzó por nuestra pasión por los tacos 🌮🌮🌯. Nuesta oferta gastrómica ofrece el sabor
+                original de México 🇲🇽.
+            </p>
+            <aside>
+                <br>
+                <h3>Sabías que...</h3>
+                <details>
+                    <summary>Sabes que significa taco?</summary>
+                    <p> Proviene del término náhuatl TLAHCO, que significa “mitad” o “en medio“, ya que el alimento se
+                        coloca justo al centro de la tortilla.</p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Nuestro menú</h2>
+            <table class="menu__container">
+                <caption class="offscreen">Nuestros tacos</caption>
+                <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Tacos</th>
+                        <th class="menu__header" scope="col">Cantidad</th>
+                        <th class="menu__header" scope="col">Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__cr" scope="row" rowspan="3">Crunchy
+                        </th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">$2.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">$2.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">$3.25</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sf" scope="row" rowspan="3">Pastor</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">$3.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">$3.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">$4.25</td>
+                    </tr>
+                </tbody>
+                <tfoot class="">
+                    <tr>
+                        <td class="menu__item menu__cs " colspan="3">Chips &amp; Salsa $2.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        
+            <p class="center">
+                <a href="#">Arriba</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap"> Copyright &copy; 2022 </span>
+            <span class="nowrap"> La Orden del Taco</span>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -328,6 +328,8 @@ a:active {
     height: 100%;
     width: 100%;
     position: absolute;
+    padding-right: 40px;
+    padding-top: 25px;
 }
 
 /* diseno para la tabla del menu */
@@ -438,6 +440,10 @@ tfoot td {
 
 /* aqui le pongo el tamaño de los grids */
 
+[class*="col-"] {
+    float: left;
+    
+  }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
